@@ -1,0 +1,71 @@
+body{
+  color: #ffffff;
+  background-color: #1f202b;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  float: left;
+}
+
+h1{
+  font-family: 'source code pro', serif;
+  font-size:72px;
+  color: #fa0075;
+}
+
+h2 nav{
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+h3{
+  font-family: 'source code pro', serif;
+  color: #fa0075;
+  font-size: 36px;
+}
+
+nav ul{
+  list-style-type: none;
+  display: inline;
+  float: right;
+}
+
+header{
+  height: 750px;
+  clear: both;
+}
+
+#work{
+  height: 1550px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#work img{
+  border-width: 1px;
+  border-color: #b7b7b7;
+  float: left;
+  display: inline;
+  width: 500px;
+}
+
+#about{
+  height: 550px;
+}
+
+#contact{
+  height: 350px;
+}
+
+.full-width{
+  width: 1200px;
+  float: left;
+}
+
+.half-width{
+  width: 550px;
+  float: left;
+}
