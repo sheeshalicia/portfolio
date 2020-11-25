@@ -1,6 +1,7 @@
 body{
   color: #ffffff;
   background-color: #1f202b;
+  margin: auto;
 }
 
 p{
@@ -13,51 +14,33 @@ h1{
   font-family: 'source code pro', serif;
   font-size:72px;
   color: #fa0075;
+  padding-top: 100px;
 }
 
-h2 nav{
+h3, nav{
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 30px;
+  font-weight: normal;
 }
 
-h3{
+h2{
   font-family: 'source code pro', serif;
   color: #fa0075;
   font-size: 36px;
+  text-align: center;
 }
 
-nav ul{
+nav ul li{
   list-style-type: none;
   display: inline;
   float: right;
+  padding-left: 30px;
 }
 
 header{
   height: 750px;
   clear: both;
-}
-
-#work{
-  height: 1550px;
-  float: left;
-  box-sizing: border-box;
-}
-
-#work img{
-  border-width: 1px;
-  border-color: #b7b7b7;
-  float: left;
-  display: inline;
-  width: 500px;
-}
-
-#about{
-  height: 550px;
-}
-
-#contact{
-  height: 350px;
 }
 
 .full-width{
@@ -66,6 +49,35 @@ header{
 }
 
 .half-width{
-  width: 550px;
+  width: 500px;
+  float: left;
+}
+
+#work{
+  height: 1550px;
+  float: left;
+}
+
+#work img{
+  border-width: 1px;
+  border-color: #b7b7b7;
+  float: left;
+  display: inline-block
+  width: 500px;
+}
+
+#about{
+  height: 550px;
+  float: left;
+}
+
+#about img{
+  float: left;
+  display: inline-block;
+  width: 500px;
+}
+
+#contact{
+  height: 350px;
   float: left;
 }
