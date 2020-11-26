@@ -1,3 +1,6 @@
+/***** BASE STYLES *****/
+
+
 body{
   color: #ffffff;
   background-color: #1f202b;
@@ -35,7 +38,7 @@ nav ul li{
   list-style-type: none;
   display: inline;
   float: right;
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 header{
@@ -46,25 +49,54 @@ header{
 .full-width{
   width: 1200px;
   float: left;
+  overflow: auto;
 }
 
 .half-width{
-  width: 500px;
+  width: 600px;
   float: left;
 }
+
+/***** PORTFOLIO *****/
 
 #work{
   height: 1550px;
   float: left;
+  margin: 0 20px;
 }
 
-#work img{
+#work #rogue-img #jubilee-img #recipe-img{
+  margin: 10px 0;
   border-width: 1px;
+  border-style: solid;
   border-color: #b7b7b7;
-  float: left;
-  display: inline-block
-  width: 500px;
 }
+
+#work #rogue-img #jubilee-img #recipe-txt {
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-top: 5px;
+  float: left;
+}
+
+#work #recipe-img #rogue-txt #jubilee-txt{
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 5px;
+  float: left;
+}
+
+#work .full-width{
+  padding: 5px 0;
+}
+
+#recipe-txt{
+  box-sizing: border-box;
+  padding-right: 50px;
+  text-align: right;
+}
+
+/***** ABOUT *****/
 
 #about{
   height: 550px;
@@ -73,9 +105,12 @@ header{
 
 #about img{
   float: left;
-  display: inline-block;
+  display: block;
   width: 500px;
 }
+
+/***** CONTACT *****/
+
 
 #contact{
   height: 350px;
