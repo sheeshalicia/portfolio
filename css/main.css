@@ -3,7 +3,7 @@
 
 body{
   color: #000000;
-  background-color:  #e6e6ff;
+  background-color:  #dbdbdb;
   max-width: 1200px;
   margin: auto;
 }
@@ -55,7 +55,7 @@ h1{
 
 span{
   font-family: 'Sacramento', sans-serif;
-  font-size: 72px
+  font-size: 70px;
   color: #fa0075;
 }
 
@@ -81,59 +81,89 @@ h2{
 /***** PORTFOLIO *****/
 
 #work{
-  height: 1550px;
   float: left;
-  margin: 0 20px;
 }
 
-#work #rogue-img #jubilee-img #recipe-img{
-  margin: 10px 0;
+#rogue-img #jubilee-img #recipe-img{
   border-width: 1px;
   border-style: solid;
   border-color: #b7b7b7;
 }
 
-#work #rogue-img #jubilee-img #recipe-txt {
-  padding-left: 20px;
-  padding-right: 50px;
-  padding-top: 5px;
-  float: left;
-}
-
-#work #recipe-img #rogue-txt #jubilee-txt{
-  padding-left: 50px;
-  padding-right: 20px;
-  padding-top: 5px;
-  float: left;
-}
-
-#work .full-width{
-  padding: 5px 0;
-}
-
-#recipe-txt{
+#work .half-width{
   box-sizing: border-box;
-  padding-right: 50px;
+  width: 550px;
+  margin-left: 40px;
+  height: 375px;
+}
+
+#jubilee-txt #rogue-txt .half-width{
   text-align: right;
+  padding-left: 100px;
+  padding-right: 50px;
 }
 
 /***** ABOUT *****/
 
 #about{
-  height: 550px;
   float: left;
 }
+
+#about .half-width{
+  box-sizing: border-box;
+  width: 550px;
+  margin-left: 30px;
+  }
 
 #about img{
   float: left;
   display: block;
-  width: 500px;
+  height: 650px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b7b7b7;
+}
+
+h4{
+  font-family: 'source code pro', serif;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  line-height: 20px;
+}
+
+h5{
+  font-family: 'source code pro', serif;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  line-height: 80px;
 }
 
 /***** CONTACT *****/
 
 
 #contact{
-  height: 350px;
+  height: 200px;
   float: left;
+  text-align: center;
+}
+
+#contact ul li{
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  margin: auto;
+  padding-right: 25px;
+}
+
+/***** FOOTER *****/
+
+h6{
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: normal;
+  text-align: center;
 }
